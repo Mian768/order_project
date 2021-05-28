@@ -20,6 +20,7 @@ class CreateOrderTable extends Migration
             $table->string('qty');
             $table->string('total');
             $table->string('detail');
+            $table->string('detail_json');
             $table->timestamps();
         });
     }
