@@ -19,7 +19,7 @@ class CreateOrderTable extends Migration
             $table->foreign('product_id')->references('id')->on('order');
             $table->string('qty');
             $table->string('total');
-            $table->longText('detail_json');
+            $table->longText('detail_json');git
             $table->timestamps();
         });
     }
